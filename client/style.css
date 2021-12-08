@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto';
+    font-size: 22px;
+}
+
+#transcription_log {
+    height: 52%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    text-align: center;
+}
+#transcription_log::-webkit-scrollbar {
+    display: none;
+}
+
+span { 
+    margin:0 
+}
+span:last-child {
+    font-size: 64px;
+    font-weight: bold;
+}

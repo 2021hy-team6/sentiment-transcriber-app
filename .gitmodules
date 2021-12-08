@@ -1,0 +1,9 @@
+[submodule "dependencies/drogon"]
+	path = dependencies/drogon
+	url = https://github.com/drogonframework/drogon
+[submodule "dependencies/fmt"]
+	path = dependencies/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "dependencies/rapidjson"]
+	path = dependencies/rapidjson
+	url = https://github.com/Tencent/rapidjson.git
