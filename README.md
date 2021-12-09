@@ -1,6 +1,8 @@
 # sentiment-transcriber-app
 Sentiment Transcriber Application in C++, using AWS Transcription API
 
+Uses [CppFlow](https://github.com/serizba/cppflow) for inference.
+
 #### Tested Environments
 - Ubuntu 20.04 LTS
 - GCC 5.3.1
@@ -9,6 +11,11 @@ Sentiment Transcriber Application in C++, using AWS Transcription API
 > ##### In order to adhere to library licenses, this project will not provide a pre-compiled statically linked binary.
 - AWS SDK for C++: https://github.com/aws/aws-sdk-cpp
 - PortAudio: http://www.portaudio.com/
+- Tensorflow: https://github.com/tensorflow/tensorflow
+
+Despite the following being provided as a submodule, you may also need the following:
+- rapidjson: https://github.com/Tencent/rapidjson
+- fmt: https://github.com/fmtlib/fmt
 
 #### Compiling/Installing
 ```
