@@ -1,4 +1,5 @@
 # sentiment-transcriber-app
+##### https://2021hyt6-techblog.github.io/projects-blog/ai/
 Sentiment Transcriber Application in C++, using AWS Transcription API
 
 Uses [CppFlow](https://github.com/serizba/cppflow) for inference.
